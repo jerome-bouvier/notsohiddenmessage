@@ -21,9 +21,8 @@ function setup() {
 }
 
 function draw() {
-  background('#fafafa')
+  background('BACKGROUND_COLOR')
   
-
   for (var y = tileSize / 2; y < height - tileSize; y = y + tileSize) {
     for (var x = tileSize /2; x < width - tileSize; x = x + tileSize) {
 
